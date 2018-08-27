@@ -1,0 +1,130 @@
+/*======================================================
+Programmer: Tara Walton
+Folder: tara1984
+Notes:  HW2- Movie, due 9/23/15
+		**50% of the time my columns would work. Sometimes only in Firefox. Sometimes I would refresh and they don't. I don't understand why. 
+		The more I try to get them to work, the worse they get.**
+URL: 
+========================================================*/
+/** {
+   border: 1px solid red !important;
+}*/
+
+body{
+	background-image: url(http://www.cs.washington.edu/education/courses/cse190m/12sp/homework/2/background.png);
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 8pt;
+	margin: 0pt;
+	padding: 0pt;
+}
+
+.column1 , .column2 {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 2%;
+	padding-right: 1%;
+	padding-top: 2%;
+	float: right;
+	width: 251px;
+}
+
+.comment{
+	background: #E8DC9B;
+	border: solid;
+	border-color: gray;
+	border-radius: 10px;
+	border-width: 2px;
+	font-size: 8pt;
+	font-weight: bold;
+	padding:8px;
+	text-align: left;
+}
+
+dl{	margin: 10pt;}
+
+dt{	font-weight: bold}
+
+dd{ margin-bottom: 10pt;}
+
+h1{
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 3px 3px #999999;
+}
+
+.left {	float: left;}
+
+#main{
+	
+	border: solid;
+	border-width: 4px;
+	border-color: gray;
+	border-radius: 20px;
+	margin: auto;
+	max-width: 800px;
+	overflow: hidden;
+}	
+
+p:first-line {	font-style: normal;	}
+
+.pages{
+	background-color: #A2B964;
+	clear: both;
+	margin-top: 0;
+	margin-bottom:0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	text-align:center;
+}
+
+.rating{
+	background-image: url(http://www.cs.washington.edu/education/courses/cse190m/12sp/homework/2/rbg.png);
+	color: #FF0000;
+	font-size: 48pt;
+	font-weight: bold;
+	height: 83px;
+	max-width: 550px;
+	vertical-align: bottom;
+}
+	
+.right { padding: 10pt;}
+	
+#sidebar{	
+	background: #A2B964;
+	float: right;
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	max-width: 250px;
+}
+
+.signature{
+	border: none;
+	font-style: italic;
+	margin-bottom: 20pt;
+}
+
+.site_banner{
+	background-image: url(http://www.cs.washington.edu/education/courses/cse190m/12sp/homework/2/bannerbg.png);
+	height: 50px;
+	text-align: center;
+}
+
+span{
+	float: left;
+	margin-right: 5px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.valid {
+	bottom: 0;
+	opacity: .5;
+	position: fixed;
+    right: 0;
+	}

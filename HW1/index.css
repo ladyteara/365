@@ -1,0 +1,41 @@
+/*<!--
+Programmer: Tara Walton
+Folder: tara1984
+Notes:  hw1 - Pie, due 9/11/15
+		Additional features incl: Background, Favicon, Pie Bullets, Wide Headings, Tight Heading BG
+URL: 
+-->*/
+a{
+	color : #A4A400;
+	font-family:Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+body {
+	color: #404040;
+	background-image: url(silverware.jpg);
+	background-attachment: fixed;
+	font-family: Georgia, Garamond, serif;
+	font-size: 11pt;
+	}
+
+h1 {
+    background-color: #F0F0F0;
+	color: #A4A400;
+	font-family:Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+	font-size: 22pt;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+	}
+
+h2 {
+	background-color: #F0F0F0;
+	color : #A4A400;
+	display: inline;
+	font-family:Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+	font-size: 18pt;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: underline;	
+	}

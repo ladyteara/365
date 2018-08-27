@@ -1,0 +1,134 @@
+/*
+Programmer: Tara Walton
+Folder: tara1984
+Notes:  HW3- Movie, due 10/21/15
+		Base HTML and CSS files provided from HW2 solution
+URL: 
+*/
+
+#banner {
+   text-align: center; /*to align the image banner, banner.png */
+   background-image: url("http://www.cs.washington.edu/education/courses/cse190m/12sp/homework/2/bannerbg.png");
+   background-repeat: repeat-x;
+   /*background-size: auto 50px;*/
+   height: 50px;
+   width: 100%; /*not needed, default*/
+   /* can also specify margin: 0px; padding: 0px; */
+}
+
+body {
+  background-image: url("http://www.cs.washington.edu/education/courses/cse190m/12sp/homework/2/background.png");
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 8pt;
+  margin: 0px;
+  padding: 0px;
+  }
+
+.column { /*for the two columns of reviews*/
+  width: 47%;
+  margin-left: 2%;
+  float: left;
+}
+
+div.column img {
+  float: left;
+  margin-right: 5px;
+}
+
+div.column  p:nth-child(odd){ /*this targets the reviewers' quote boxes - index of 1st child is 1 */
+  background-color: #E8DC9B;
+  border: gray 2px solid;
+  border-radius: 10px;
+  font-size: 8pt;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 8px;
+}
+   
+div.column p:nth-child(even){ /*this targets the reviewers' personal information boxes */
+  font-style:italic; /*only publication should be in italic (but language is not clear so 
+                       accept either solution); this makes both name and publication italic 
+					   - solution: wrap publication in span and give it a class name*/ 
+  margin-bottom: 20pt; /*sets vertical distance between reviews */
+  overflow: hidden;
+}
+
+div#rottinBig {
+  background-image: url("http://www.cs.washington.edu/education/courses/cse190m/12sp/homework/2/rbg.png");
+  background-repeat: repeat-x;
+  color: red;
+  font-size: 48pt;
+  font-weight: bold;
+  height: 83px; /* can specify with the image*/
+}
+
+div#rottinBig > img { /*image to the left of the text 33%*/ 
+  /*height: 83px;*/
+  vertical-align: bottom;
+  }
+ 
+dl { 
+  margin-left: 10pt;
+}
+
+dt {
+  margin-top: 10pt;
+  font-weight:bold;
+}
+
+#footer {
+  clear: both;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 5px;
+  text-align: center;
+  /*border-radius: 0 0 20px 20px;*/
+}
+
+#footer, #generalOverviewArea {
+   background-color:#A2B964;
+}
+
+#generalOverviewArea { /*The General Overview section on the right*/
+  float:right;
+  font-size: 8pt;
+  font-family: Arial, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  /*overflow: hidden;*/
+  width: 250px;
+}
+  
+h1 {
+  text-align: center;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 24pt;
+  font-weight: bold;
+  text-shadow: 3px 3px #999;
+  }
+ 
+#leftSection {
+  overflow: hidden;
+  width: 550px;
+  }
+   
+#overallContent {
+  border: 4px gray solid;
+  border-radius: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow: hidden; /*so all content fits. Without it, corners of inside elements appear over the rounded corners of the box.*/
+  width: 800px;
+}
+
+ul { /*LINKS - list of anchors at the bottom of the general overview area*/ 
+  list-style-type:none;
+  padding-left: 0pt; /*any unit will work*/
+}
+ 
+ #validators {
+   opacity: 0.5;
+   position: fixed;
+   right: 0px;
+   bottom: 0px;
+ }

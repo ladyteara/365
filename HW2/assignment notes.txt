@@ -1,0 +1,4 @@
+Support files for this assignment. (Scroll down to Homework 2 (Movie Review). An HTML template is provided as skeleton.html.)
+Upload your solution to your CSC 365 TRACE folder and turn in stapled hard copies of your solution at the beginning of class on the due day.
+Write your name and TRACE folder name in a comment at the top of every file.
+Your solution will be checked using Chrome. Note: favicon works in Chrome but either the page or the favicon image (or both) has to be accessed over the web through http://. It does not work when both the page and the image are accessed locally. So, if you specify an absolute URL for the favicon, you will be able to see it in Chrome. 

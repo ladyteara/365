@@ -1,0 +1,9 @@
+You can download the text used in the recipe from here. (Scroll down to Homework 1 (Recipe). The file name is output.txt.)
+Download all images to the same folder that contains the html and css documents. All URLs need to link to images in the current folder.
+Validator images w3c-html.png and w3c-css.png link to the w3c validators (check the book or PowerPoint slides for URLS).
+Upload your code and all needed files to your CSC365 TRACE folder in a subfolder named HW1.
+Make sure to turn in hard copies at the beginning of class on the due date. Please arrange the hard copies in the order index.html, index.css (if you create such file), pie.html, and recipe.css. Staple all the sheets together.
+Please list the rules in the file recipie.css (and the properties within each rule) in alphabetical order. 
+Add comments at the top of each file indicating your name, name of your TRACE folder, and URL of your index.html file (if your solution is available on the web). Also add a comment near the top of the pie.html file saying which extra features you have completed.
+You need to turn in the files index.html, pie.html, and recipe.css. It is optional to include an index.css file.
+Your solution will be graded using Chrome.
