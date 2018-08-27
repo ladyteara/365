@@ -1,0 +1,40 @@
+/*
+Programmer:	Tara Walton
+Folder: 	tara1984
+Notes:  	HW5- ASCIImation - Due 12/2
+			Practice with javascript event handlers
+URL: 
+*/
+
+body{
+	background: #CCCCFF;
+	font-family: sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1{
+	font-size: 32pt;
+	/*font-weight: bold;*/
+}
+
+fieldset{
+	border: black 5px solid;
+	 display: inline;
+	 margin-left: auto;
+	margin-right: auto;
+}
+
+textarea{
+	width: 90%;
+	height: 400px;
+	font-size: 12pt;
+	font-family: monospace;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.validators{
+	float: right;
+}

@@ -1,0 +1,7 @@
+Download the files needed for this assignment from here (You need to scroll down to Homework 4 (NerdLuv))
+Your code will be tested using XAMPP and Chrome running on a Windows OS
+Upload your code and all needed files to your CSC365 eccentric folder in a subfolder named HW4
+The files index.php, top.html, bottom.html, nerdluv.css and singles.txt will be placed in the same folder (HW4) as the files you turn in (signup.php, signup-submit.php, matches.php and matches-submit.php). The URLs in index.php assume that your files are in the same folder.
+Follow this link for explanation of personality types.
+
+http://www.humanmetrics.com/hr/you/personalitytype.aspx

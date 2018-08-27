@@ -1,0 +1,8 @@
+Your code will be tested using Chrome running on a Windows OS
+Using Chrome's JavaScript console is very useful to debug your code. You can access it by pressing the F12 key.
+Validator images w3c-html.png and w3c-css.png need to link to the HTML and CSS validators at w3c (i.e., not to the validators at the University of Washington). For JSLint w3c-js.jpg, you can use the URL provided in the assignment specifications.
+You are not allowed to use prototype or any other JavaScript library in your solution
+Please make sure that your page links to animations.js and gallery.js using absolute URLs.
+Upload your solution to your CSC365 TRACE folder in a subfolder named HW5. Please test your code after you upload it to make sure that it runs from inside your TRACE folder.
+You can view sample output screen shots from here (You need to scroll down to Homework 6 (ASCIImation))
+Please do not spend much time on creating a custom animations. A simple animation such as a simple moving object will be accepted.
