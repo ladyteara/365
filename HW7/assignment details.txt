@@ -1,0 +1,7 @@
+This homework assignment is optional. If you do it, the homework assignment with the lowest grade will be dropped for you.
+Download the files needed for this assignment from here (You need to scroll down to Homework 7 (Fifteen Puzzle))
+The extra features are optional. No extra/late days will be gained by doing the extra features. You can still earn +1 point for each extra feature you implement and they will apply only to this assignment.
+Upload your code and all needed files to your CSC365 TRACE folder in a subfolder named HW6
+Your code will be tested using Chrome running on a Windows OS
+
+http://en.wikipedia.org/wiki/15_puzzle
